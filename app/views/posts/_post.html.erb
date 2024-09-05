@@ -2,6 +2,8 @@
   <h2>
     <%= post.title %>
   </h2>
+  <p>posted by <%= link_to post.user.name, user_path(post.user) %>
+  </p>
   <p><%= pluralize(post.views, "view") %></p>
   <div>
     <%= post.body %>
