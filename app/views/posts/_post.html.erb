@@ -2,6 +2,7 @@
   <h2>
     <%= post.title %>
   </h2>
+  <p><%= pluralize(post.views, "view") %></p>
   <div>
     <%= post.body %>
   </div>

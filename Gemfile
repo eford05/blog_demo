@@ -9,6 +9,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 gem "jbuilder"
 gem "htmlbeautifier"
+gem "devise"
 
 
 gem "tzinfo-data", platforms: %i[ windows jruby ]
